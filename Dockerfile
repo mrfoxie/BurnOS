@@ -1,5 +1,5 @@
 FROM scratch
 
-ADD burn-root.tar.gz /
+ADD BurnOS.tar.gz /
 
 CMD ["bash"]
