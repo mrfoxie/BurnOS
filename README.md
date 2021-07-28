@@ -1,4 +1,19 @@
-# BurnOS 🔥
-![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/siddhmistry/burnos) ![Docker Cloud Automated build](https://img.shields.io/docker/cloud/automated/siddhmistry/burnos) ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/siddhmistry/burnos/latest) ![Docker Pulls](https://img.shields.io/docker/pulls/siddhmistry/burnos)
+# BurnOS 🔥 ![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/burnos/burnos) ![Docker Cloud Automated build](https://img.shields.io/docker/cloud/automated/burnos/burnos) ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/burnos/burnos/latest) ![Docker Pulls](https://img.shields.io/docker/pulls/burnos/burnos)
 
-This is a clone of ubuntu os trying to customize it and making it more interesting
+
+![img](https://i.imgur.com/rI6r3VX.jpg)
+
+Minimal, lightweight, fast processing, clean coding, in production of GUI console which will be releasing soon. Freenode #BurnOS
+
+# Usage
+
+```bash
+docker run --name BurnOS burnos/burnos:latest
+```
+
+# Existing
+
+```bash
+docker start BurnOS
+docker exec -it Burnos bash
+```
